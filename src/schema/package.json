@@ -1,0 +1,8 @@
+{
+  "name": "schema",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "suzukalight <mail@mkubara.com>",
+  "license": "MIT"
+}

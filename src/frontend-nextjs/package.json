@@ -1,0 +1,35 @@
+{
+  "name": "frontend-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8888",
+    "build": "next build",
+    "rebuild": "run-s clean reinstall build",
+    "clean": "run-p clean:*",
+    "clean:next": "rimraf .next",
+    "clean:modules": "rimraf node_modules",
+    "reinstall": "yarn install",
+    "start": "next start -p 8888",
+    "codegen": "graphql-codegen --config codegen.yml"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.2.7",
+    "@apollo/react-hooks": "^4.0.0",
+    "@auth0/nextjs-auth0": "^0.16.0",
+    "graphql": "^15.4.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "10.0.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "unfetch": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.9",
+    "@types/react": "^16.9.56",
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.9",
+    "tailwindcss": "^2.0.1",
+    "typescript": "^4.1.2"
+  }
+}
