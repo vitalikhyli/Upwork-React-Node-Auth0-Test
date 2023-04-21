@@ -49,7 +49,7 @@ Select "APIs" from the menu on the left of the screen and click the "+ Create AP
 ## set up
 
 ```
-git clone https://github.com/suzukalight/sample-auth0-react-nodejs
+git clone https://github.com/vitalikhyli/Upwork-React-Node-Auth0-Test
 yarn
 ```
 
